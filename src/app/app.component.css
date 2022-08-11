@@ -1,0 +1,8 @@
+.character-sheet {
+  display: grid;
+  grid-template-areas: "photo name name name class blank"
+                       "chars throws content content content blank"
+                       "chars skils skils skils skils blank";
+  grid-template-rows: 148px 1fr 1fr;
+  grid-template-columns: 112px repeat(3, 120px) 1fr 1fr;
+}
